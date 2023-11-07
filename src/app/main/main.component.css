@@ -1,0 +1,78 @@
+main{
+    height: auto;
+}
+
+.page-title{
+    justify-content: center;
+    margin: 30px;
+    text-align: center;
+}
+
+.page-title h1{
+    color: red;
+}
+
+.main-container{
+    height: auto;
+    display: flex;
+    justify-content: space-around;
+    margin: 40px;
+}
+
+.column{
+    /* border-radius: 10px; */
+    background-color: rgba(0, 0, 0, 0.3);
+}
+
+.column-title{
+    color: blue;
+    text-align: center;
+    padding: 10px;
+    margin: 5px;
+    border-radius: 5px;
+    background-color: aliceblue;
+}
+
+.card {
+    max-width: 300px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    margin: 20px 10px;
+}
+
+.card img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.card-description {
+    padding: 10px;
+    background-color: #f4f4f4;
+    text-align: center;
+}
+
+.movie-title{
+    color: red;
+    font-weight: bold;
+}
+
+.links-container{
+    margin: 20px;
+    padding: 20px;
+}
+
+.links-container h3{
+    text-align: center;
+}
+
+.links-container ul li{
+    list-style:circle;
+}
+
+.green{
+    color: green;
+    margin: 20px;
+}

@@ -1,0 +1,75 @@
+<main>
+    <div class="page-title">
+        <h1>My Movie</h1>
+        <h6>Have a look at what we are serving to you!</h6>
+    </div>
+
+    <div class="main-container">
+        <div class="column" id="movie-container">
+            <div class="column-title">
+                <h3>Movie List</h3>
+            </div>
+            <div class="card" *ngFor="let movie of movies">
+                <img [src]="movie.imagePath" alt="Image">
+                <div class="card-description">
+                    <div class="movie-title">
+                        {{ movie.title }}
+                    </div>
+                    <div class="release_year">
+                        <h5>Release Year:</h5>{{ movie.releaseYear }}
+                    </div>
+                    <div class="genre">
+                        <h5>Genre:</h5>{{ movie.genre }}
+                    </div>
+                    <div class="director">
+                        <h5>Director:</h5>{{ movie.director }}
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <hr>
+
+        <div class="column" id="image-container">
+            <div class="column-title">
+                <h3>Photos/Images</h3>
+            </div>
+            <div class="card" *ngFor="let image of images">
+                <img [src]="image.imagePath" alt="Image">
+                <div class="card-description">
+                    <p>{{ image.description }}</p>
+                </div>
+            </div>
+        </div>
+
+
+        <hr>
+
+        <div class="column" id="chore-container">
+            <div class="column-title">
+                <h3>Chore List</h3>
+            </div>
+            <div class="card" *ngFor="let chore of chores">
+                <div class="card-description">
+                    <h4>{{ chore.title }}</h4>
+                    <p>Priority: {{ chore.priority }}</p>
+                    <p>Assigned to: {{ chore.assignedTo }}</p>
+                    <p>Due Date: {{ chore.dueDate }}</p>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <hr>
+    <div class="links-container">
+        <h3 class="green">Links</h3>
+        <div id="links">
+            <ul *ngFor="let link of links">
+                <li><a href="https://www.google.com">{{link.link}}</a></li>
+            </ul>
+        </div>
+    </div>
+
+</main>

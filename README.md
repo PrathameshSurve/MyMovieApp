@@ -28,7 +28,7 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 
 MyMovieApp is an Angular-based web application that serves as a showcase template for movies. It provides detailed information on each movie, including its name, genre, director, release year, along with visual content and descriptions. Additionally, the app includes a chore list component for managing tasks related to movies, such as 'Watch "The Matrix",' and a section for useful links related to popular films like 'The Shawshank Redemption (1994)' and 'Inception (2010).' MyMovieApp is designed to enhance your movie-watching experience.
 
-![Website preview](screenshots/movie_list.png)
+![Website preview](./src/assets/Prathamesh's_MyMovieApp2023-11-07%2019%2017%2053.png)
 *Screenshot : The overview of lists view displays page outline details.*
 
 ## Feel Free to Contribute
